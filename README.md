@@ -27,6 +27,11 @@ A personal portfolio website showcasing my projects, skills, and experiences. Bu
    ```bash
    npm install
    ```
+   if not working
+   ``` bash
+   npm install --force
+   ```
+   
 3. Start the development server:
    ```bsah
    npm start
