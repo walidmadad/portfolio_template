@@ -33,4 +33,38 @@ A personal portfolio website showcasing my projects, skills, and experiences. Bu
    ```
   The application will run on http://localhost:3000.
 
+## File Structure
+   ```php
+   portfolio/
+├── public/
+│   ├── favicon.webp       # Favicon for the website
+│   ├── index.html         # Main HTML file
+│   ├── manifest.json      # PWA configuration
+│   └── robots.txt         # SEO settings
+├── src/
+│   ├── assets/            # Static assets like icons and images
+│   │   ├── icons/         # Icon files and assets.js
+│   │   └── myImg.png      # Personal image
+│   ├── components/        # React components for various sections
+│   │   ├── About.jsx      # About section
+│   │   ├── AndroidGames.jsx  # Projects specific to Android games
+│   │   ├── Contact.jsx    # Contact form section
+│   │   ├── Footer.jsx     # Footer component
+│   │   ├── Hero.jsx       # Hero section
+│   │   ├── Navbar.jsx     # Navigation bar
+│   │   ├── ProjectDetail1.jsx # Details for project 1
+│   │   ├── ProjectDetail2.jsx # Details for project 2
+│   │   ├── Projects.jsx   # Projects overview
+│   │   └── Technologies.jsx # Technologies section
+│   ├── App.js             # Main React application component
+│   ├── index.js           # React entry point
+│   ├── style.css          # Global CSS styles
+│   ├── index.css          # Tailwind CSS configuration
+│   ├── send_email.php     # PHP backend for contact form
+│   └── tailwind.config.js # Tailwind configuration file
+├── .gitignore             # Ignored files and folders
+├── package.json           # Project dependencies and scripts
+├── README.md              # Project documentation
+└── build/                 # Production-ready build
+   ```
 
