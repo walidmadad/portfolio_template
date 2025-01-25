@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Path: src/index.css */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Background animation */
+@keyframes bgColor {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.animate-bgColor {
+    background-size: 200% 200%;
+    animation: bgColor 10s ease infinite;
+}
+
+/* Pulse animation on hover */
+@keyframes pulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+.animate-pulseHover:hover {
+    animation: pulse 1.5s infinite;
+}
+nav {
+    transition: all 0.3s ease;
+}
+@keyframes wave {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.wave-background {
+    background: linear-gradient(to bottom right, #2e2c50, #43345e);
+    background-size: 400% 400%;
+    animation: wave 10s ease-in-out infinite;
+
+}
+
+/* styles.css or a similar stylesheet */
+
+/* styles.css or a similar stylesheet */
+
+/* Base styles for project cards */
+.project-card {
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for scale and opacity */
+    opacity: 0.8; /* Slightly transparent by default */
+}
+
+/* Scale and full opacity on hover */
+.project-card:hover {
+    transform: scale(1.05); /* Scale up slightly */
+    opacity: 1; /* Full opacity on hover */
+}
+
+/* Fade-in animation */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* style.css */
+
+/* Styles de base pour la carte projet */
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    transform: scale(1); /* Échelle initiale */
+    background-color: rgba(0, 0, 0, 0.6); /* Couleur de fond sombre pour le texte */
+}
+
+/* Effet au survol */
+.project-card:hover {
+    transform: scale(1.05); /* Zoom léger */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Ombre pour donner un effet de surélévation */
+    background-color: rgba(0, 0, 0, 0.75); /* Accentuation de l'assombrissement au survol */
+}
+
+/* Animation de fondu à l'apparition de la page */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.gradient-focus:focus::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    border-radius: 0.5rem; /* Match the input's border radius */
+    padding: 2px;
+    background: linear-gradient(to right, #3b82f6, #8b5cf6, #ec4899);
+    z-index: -1;
+}
+
+
