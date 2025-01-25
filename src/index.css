@@ -43,7 +43,7 @@ nav {
 }
 
 .wave-background {
-    background: linear-gradient(to bottom right, #2e2c50, #43345e);
+    background: linear-gradient(to bottom right, #2c5045, #345e47);
     background-size: 400% 400%;
     animation: wave 10s ease-in-out infinite;
 
@@ -118,8 +118,41 @@ nav {
     bottom: -2px;
     border-radius: 0.5rem; /* Match the input's border radius */
     padding: 2px;
-    background: linear-gradient(to right, #3b82f6, #8b5cf6, #ec4899);
+    background: linear-gradient(to right, #2c5045, #388058, #2c8a56);
     z-index: -1;
 }
 
 
+/* Optional: You may customize these styles further as needed */
+
+.bg-gradient-to-br {
+    background: linear-gradient(to bottom right, #2c503f, #345e4e);
+}
+
+.bg-gradient-to-br1{
+    background: linear-gradient(to bottom right, #2c503f, #345e4e);
+}
+button {
+    cursor: pointer;
+}
+
+.project-card {
+    transition: transform 0.3s ease, backdrop-filter 0.3s ease;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    backdrop-filter: blur(5px);
+}
+
+.bg-opacity-70 {
+    background-color: rgba(0, 0, 0, 0.7); /* Adjusted for better visibility */
+}
+
+.bg-green-500 {
+    background-color: #28a745; /* Bootstrap-like green */
+}
+
+.bg-green-600:hover {
+    background-color: #218838; /* Darker green on hover */
+}
