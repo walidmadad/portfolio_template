@@ -51,7 +51,7 @@ const Contact = () => {
         if (Object.values(newErrors).some((error) => error)) return;
 
         try {
-            const response = await fetch('https://walid-madad.com/sendEmail.php', {
+            const response = await fetch('https:www.your-website.com', {
                 method: 'POST',
                 body: formData,
             });
