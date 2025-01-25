@@ -73,3 +73,26 @@ To deploy the app, run:
    ```bash
    npm run build
    ```
+This will generate a production-ready build in the build folder. You can upload this to any hosting service.
+
+## Contact Form Integration
+The contact form is handled using a PHP script (`send_email.php`). Ensure your server supports PHP, and configure the script as needed to send emails.
+
+## Customization
+- **Navbar**: Update links in `Navbar.jsx`.
+- **Hero Section**: Modify introduction text in `Hero.jsx`.
+- **Projects**: Add or edit projects in `Projects.jsx` and `ProjectDetail*.jsx`.
+- **Contact Form**: Update backend email logic in `send_email.php`.
+
+## Contributing
+If you'd like to contribute, feel free to submit a pull request or open an issue.
+
+## License
+This project is licensed under the MIT License.
+
+## Author
+**Your Name**
+
+- **GitHub**: [walidmadad](https://github.com/walidmadad)
+- **LinkedIn**: [walid madad](https://www.linkedin.com/in/walid-madad-610828200/)
+- **Portfolio**: [walid-madad.com](https://walid-madad.com/)
