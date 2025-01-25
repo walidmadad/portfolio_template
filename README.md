@@ -20,7 +20,7 @@ A personal portfolio website showcasing my projects, skills, and experiences. Bu
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/react-portfolio.git](https://github.com/walidmadad/portfolio_template.git)
+   git clone https://github.com/your-username/react-portfolio.git](https://github.com/walidmadad/portfolio_template.git
    cd portfolio_template
    ```
 2. Install dependencies:
