@@ -68,3 +68,8 @@ A personal portfolio website showcasing my projects, skills, and experiences. Bu
 └── build/                 # Production-ready build
    ```
 
+## Deployment
+To deploy the app, run:
+   ```bash
+   npm run build
+   ```
