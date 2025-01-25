@@ -9,7 +9,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-gradient-to-br from-purple-950 via-purple-900 to-purple-950 text-white p-4 shadow-lg fixed w-full z-10 transition-all duration-300 ease-in-out">
+        <nav className="bg-gradient-to-br from-green-950 via-green-900 to-green-950 text-white p-4 shadow-lg fixed w-full z-10 transition-all duration-300 ease-in-out">
             <div className="container mx-auto flex justify-between items-center">
                 {/* Logo and Name Section */}
                 <div className="flex items-center">
