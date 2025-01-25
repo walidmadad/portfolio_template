@@ -1,4 +1,4 @@
-# React Portfolio
+# My Portfolio Template
 
 A personal portfolio website showcasing my projects, skills, and experiences. Built using **React.js**, styled with **Tailwind CSS**, and includes an integrated email server for contact forms.
 
@@ -20,8 +20,8 @@ A personal portfolio website showcasing my projects, skills, and experiences. Bu
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/react-portfolio.git
-   cd react-portfolio
+   git clone [https://github.com/your-username/react-portfolio.git](https://github.com/walidmadad/portfolio_template.git)
+   cd portfolio_template
    ```
 2. Install dependencies:
    ```bash
